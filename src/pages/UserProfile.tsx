@@ -7,7 +7,7 @@ const UserProfile = () => {
 
   const user = id ? users[id] : undefined;
   return (
-    <div>
+    <div className="text-white">
       {user ? (
         <div>
           <p>名前: {user.name}</p>

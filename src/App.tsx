@@ -6,9 +6,9 @@ import UserProfile from "./pages/UserProfile";
 function App() {
   return (
     <>
-      <div>
+      <div className="min-h-screen bg-gray-800 flex flex-col justify-center items-center">
         <BrowserRouter>
-          <h1>React-Router-Dynamic-Routing-with-URL-Parameters</h1>
+          <h1 className="text-sm">React-Router-Dynamic-Routing-with-URL-Parameters</h1>
           <Navigation />
           <Routes>
             <Route path="/user/:id" element={<UserProfile />} />
