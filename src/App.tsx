@@ -8,6 +8,7 @@ function App() {
     <>
       <div>
         <BrowserRouter>
+          <h1>React-Router-Dynamic-Routing-with-URL-Parameters</h1>
           <Navigation />
           <Routes>
             <Route path="/user/:id" element={<UserProfile />} />
